@@ -2,7 +2,7 @@
 
 # User calls printfcomma with an integer, the special case of negative numbers is handled by simply printing "-" and making the number #positive (this is the bit that won't work with INT_MIN).
 
-# When you enter printfcomma2, a number less than 1,000 will just print and return.
+# When you enter printfcomma, a number less than 1,000 will just print and return.
 
 # Otherwise the recursion will be called on the next level up (so 1,234,567 will be called with 1,234, then 1) until a number less than 1,000 is found.
 
