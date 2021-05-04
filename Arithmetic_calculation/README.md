@@ -2,7 +2,7 @@
 
 Simple Operation
 
-By darkprinx · Limits 1s, 512 MB
+.Limits 1s, 512 MB
 
 Mr. X is a school teacher. He teaches C programming to the students. In every class, he gives some simple problems to the students as a class task. One day he asked his students to solve a simple problem. That is, he will give two numbers and an arithmetic operator ( +, - , * ) in the middle of the two numbers. Students have to find out the result after the arithmetic operation. For example, Mr. X has given “10 * 20”. So, the result will be 200.
 
@@ -26,7 +26,8 @@ Input
 
 10 * 20
 
-50 - 10
+50 - 10 
+
 Output 
 Case 1: 200
 
