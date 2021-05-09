@@ -1,4 +1,4 @@
-#When the length of both two numbers  are same 
+//When the length of both two numbers  are same 
 #include<stdio.h>
 #include<string.h>
 
