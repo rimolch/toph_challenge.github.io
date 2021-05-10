@@ -1,12 +1,12 @@
 #include<stdio.h>
 #include<string.h>
-
+char A[1000005],B[1000005],sum[1000005];
 int main()
 {
-    char A[1000005],B[1000005];
+
     int l1,l2,l3;
     int i,j,k,carry=0;
-    char sum[1000005];
+
     int a,b,temp;
     scanf("%s%s",A,B);
     l1 = strlen(A);
@@ -17,7 +17,7 @@ int main()
       {
           b = (int)B[j]-48;
           temp = b+carry;
-          sum[k]=(char)(B[j]%10)+48;
+          sum[k]=(char)(temp%10)+48;
           carry = temp/10;
       } 
       
@@ -25,7 +25,7 @@ int main()
       {
           a = (int)A[i]-48;
           temp = a+carry;
-          sum[k]=(char)(A[j]%10)+48;
+          sum[k]=(char)(temp%10)+48;
           carry = temp/10;    
       }
      else
