@@ -1,10 +1,10 @@
 //When the length of both two numbers  are same 
 #include<stdio.h>
 #include<string.h>
-
+char A[1000005],B[1000005],C[1000005];
 int main()
 {
-    char A[1000005],B[1000005],C[1000005];
+
     int la,lb,i,j,k,a,b,temp,carry=0,lc;
     scanf("%s %s",A,B);
     la=strlen(A);
