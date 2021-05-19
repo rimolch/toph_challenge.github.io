@@ -7,7 +7,7 @@ int main()
     int i,len,n;
     char str[1000];
     scanf("%d",&n);
-    getchar();
+    getchar();//we are using both getchr() and gets(str).getchar() only reads one char 
     gets(str);//scanf("%[^\n]",&str);
     len=strlen(str);
     for(i=0;i<len;i++)
